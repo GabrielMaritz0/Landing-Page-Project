@@ -1,0 +1,65 @@
+.header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  border-radius: 50px;
+}
+.nav {
+  background-color: green;
+  display: flex;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  gap: 20px;
+}
+.first {
+  background-color: #4b5563;
+  padding: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.first-left {
+  background-color: blue;
+}
+.first-right {
+  background-color: yellow;
+
+}
+.second {
+  background-color: #6b7280;
+  display: flex;
+  
+}
+.photos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.photo {
+  background-color: pink
+}
+.photo-text {
+  background-color: orange;
+}
+.third {
+  background-color: #9ca3af;
+}
+.fourth {
+  background-color: #d1d5db;
+}
+.sign-up {
+  background-color: #3882f6;
+}
+.footer {
+  background-color: #1f2937;
+}
