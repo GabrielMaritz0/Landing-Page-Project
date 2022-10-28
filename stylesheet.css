@@ -52,13 +52,13 @@ button {
   justify-content: space-evenly;
   align-items: center;
   gap: 20px;
+  color: whitesmoke;
 }
 .first-left {
   width: 400px;
   height: 400px;
   border-radius: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: whitesmoke;
+  
   display: flex;
   flex-direction: column;
   justify-content: space-around;
