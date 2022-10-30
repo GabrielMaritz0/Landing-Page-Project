@@ -2,10 +2,8 @@
   padding: 0px;
   margin: 0px;
   flex-wrap: wrap;
-  color: wheat;color: wheat;
+  color: wheat;
   flex-wrap: wrap;
-  flex-shrink: inherit;
-  background-color: rgb(1, 21, 77);
 }
 .body {
   font-family: Arial, Helvetica, sans-serif;
@@ -57,12 +55,14 @@ button {
   justify-content: space-evenly;
   align-items: center;
   gap: 20px;
+  color: wheat;
+  flex-wrap: wrap;
 }
 .first-left {
   width: 400px;
   height: 400px;
   border-radius: 5px;
-  
+  color: wheat;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -72,6 +72,7 @@ button {
 .first-right {
   width: 600px;
   height: 400px;
+  color: wheat;
   border-radius: 5px;
   background-color: aquamarine;
   margin: 10px;
@@ -81,12 +82,14 @@ button {
 width: 600px;
 height: 400px;
 border-radius: 5px;
+color: wheat;
 border: 5px solid rgb(168, 111, 6);
 
 }
 .second {
   background-color: rgb(1, 21, 77);
   text-align: center;
+  color: wheat;
 }
 .second h1 {
   background-color: rgb(168, 111, 6);
@@ -110,12 +113,14 @@ border: 5px solid rgb(168, 111, 6);
 .third {
   background-color: rgb(1, 21, 77);
   text-align: center;
+  color: wheat;
 }
 .third p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   padding: 20px;
   border-radius: 5px;
+  color: wheat;
 }
 .model {
   width: 300px;
