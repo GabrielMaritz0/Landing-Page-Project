@@ -4,7 +4,10 @@
   font-family: Arial, Helvetica, sans-serif;
   color: wheat;
   flex-wrap: wrap;
-  width:100%vw;
+}
+body {
+  background-color: rgb(1, 21, 77);
+  width: 100vw;
 }
 .header {
   background-color: rgb(168, 111, 6);
