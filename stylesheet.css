@@ -4,10 +4,10 @@
   flex-wrap: wrap;
   color: wheat;
   flex-wrap: wrap;
-  width: 100%vw;
 }
 .body {
   font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
 }
 .header {
   background-color: rgb(168, 111, 6);
