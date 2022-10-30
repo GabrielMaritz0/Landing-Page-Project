@@ -2,7 +2,10 @@
   padding: 0px;
   margin: 0px;
   flex-wrap: wrap;
-  color: wheat;
+  color: wheat;color: wheat;
+  flex-wrap: wrap;
+  flex-shrink: inherit;
+  background-color: rgb(1, 21, 77);
 }
 .body {
   font-family: Arial, Helvetica, sans-serif;
