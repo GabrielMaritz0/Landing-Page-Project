@@ -4,6 +4,8 @@
   font-family: Arial, Helvetica, sans-serif;
   color: wheat;
   flex-wrap: wrap;
+  flex-shrink: inherit;
+  background-color: rgb(1, 21, 77);
 }
 .header {
   background-color: rgb(168, 111, 6);
