@@ -4,10 +4,7 @@
   flex-wrap: wrap;
   color: wheat;
   flex-wrap: wrap;
-}
-.body {
   font-family: Arial, Helvetica, sans-serif;
-  width: 100vw;
 }
 .header {
   background-color: rgb(168, 111, 6);
@@ -16,20 +13,22 @@
   align-items: center;
   padding: 20px;
   flex-wrap: wrap;
-
 }
 .logo {
   width: 400px;
   height: 150px;
   margin: 10px;
   border-radius: 5px;
+  overflow: none;
+  flex-shrink: 1;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: none;
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
 }
 a {
@@ -54,7 +53,6 @@ button {
   background-color: rgb(1, 21, 77);
   padding: 50px;
   display: flex;
-  flex-direction: center;
   justify-content: space-evenly;
   align-items: center;
   gap: 20px;
@@ -64,39 +62,32 @@ button {
 .first-left {
   width: 400px;
   height: 400px;
+  margin: 10px;
   border-radius: 5px;
-  color: wheat;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-
+  overflow: none;
+  flex-shrink: 1;
 }
 .first-right {
-  width: 600px;
+  width: 400px;
   height: 400px;
-  color: wheat;
-  border-radius: 5px;
-  background-color: aquamarine;
   margin: 10px;
-  
+  border-radius: 5px;
+  overflow: none;
+  flex-shrink: 1;
 }
 .system {
-width: 600px;
-height: 400px;
-border-radius: 5px;
-color: wheat;
-border: 5px solid rgb(168, 111, 6);
-
+  width: 600px;
+  height: 400px;
+  border-radius: 5px;
+  border: 5px solid rgb(168, 111, 6);
 }
 .second {
   background-color: rgb(1, 21, 77);
   text-align: center;
-  color: wheat;
 }
 .second h1 {
   background-color: rgb(168, 111, 6);
-  font-family: Arial, Helvetica, sans-serif;
+
   font-size: 25px;
   padding: 20px;
   border-radius: 5px;
@@ -148,22 +139,16 @@ border: 5px solid rgb(168, 111, 6);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
-
-* {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
-img {vertical-align: middle; border-radius: 5px;}
-
 /* Slideshow container */
 .slideshow-container {
-  max-width: 500px;
+  max-width: 1000px;
   position: relative;
   margin: auto;
-  
 }
 
 /* Caption text */
 .text {
+  color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -171,6 +156,16 @@ img {vertical-align: middle; border-radius: 5px;}
   width: 100%;
   text-align: center;
 }
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
 /* The dots/bullets/indicators */
 .dot {
   height: 15px;
@@ -200,4 +195,3 @@ img {vertical-align: middle; border-radius: 5px;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
-}
